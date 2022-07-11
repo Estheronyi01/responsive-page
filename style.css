@@ -1,0 +1,113 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'Big Shoulders Display';
+    font-family: 'Lexend Deca';*/
+}
+body{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    justify-content:center;
+    align-content: center;
+}  
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100px;
+    color:white;
+}
+.box-container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.box{
+   
+}
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    min-height: 430px;
+}
+.box2{
+    background-color: hsl(184, 100%, 22%);
+    padding:2em;
+    width: 500px;
+    padding: 15px;
+    min-height: 430px;
+}
+.box3{
+    background-color: hsl(179, 100%, 13%);
+    padding:2em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    min-height: 430px;
+}
+.btn{
+    border-radius: 30px;
+    margin: 60px, 0;
+    outline: none;
+    font-size: 15px;
+    padding: 15px, 40px;
+    cursor: pointer;
+    font-weight: 400px;
+    font-family: 'Lexend Deca';
+    background-color:hsl(0, 0%, 95%)
+}
+.btn1{
+    color: hsl(31, 77%, 52%)
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+.btn: hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.45s;
+
+}
+h3{
+    color: hsl(0, 0%, 95%)
+    font-family: 'Lexend Deca';
+    font-weight: 400px;
+    margin: 20px 0p; 
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 
+}
+.headerbutton {
+    height: 100px;
+    width: 300px;
+    align-items: center;
+    border-radius: 30px;
+    margin: 60px, 0;
+    outline: none;
+    font-size: 15px;
+    padding: 15px, 40px;
+    cursor: pointer;
+    font-weight: 400px;
+    font-family: 'Lexend Deca';
+    background-color:hsla(123, 44%, 22%, 0.885);
+    background: rgb(54, 195, 7);
+}
